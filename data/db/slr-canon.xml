@@ -7409,17 +7409,17 @@
         <mount>Canon EF</mount>
         <cropfactor>1.613</cropfactor>
         <calibration>
-            <!-- Taken with Canon 750D -->
-            <vignetting model="pa" focal="50" aperture="1.8" distance="10" k1="-0.8442" k2="0.7323" k3="-0.3554"/>
-            <vignetting model="pa" focal="50" aperture="1.8" distance="1000" k1="-0.8442" k2="0.7323" k3="-0.3554"/>
-            <vignetting model="pa" focal="50" aperture="2.5" distance="10" k1="-0.2140" k2="0.1358" k3="-0.1449"/>
-            <vignetting model="pa" focal="50" aperture="2.5" distance="1000" k1="-0.2140" k2="0.1358" k3="-0.1449"/>
-            <vignetting model="pa" focal="50" aperture="3.5" distance="10" k1="-0.1537" k2="-0.0085" k3="-0.0040"/>
-            <vignetting model="pa" focal="50" aperture="3.5" distance="1000" k1="-0.1537" k2="-0.0085" k3="-0.0040"/>
-            <vignetting model="pa" focal="50" aperture="5" distance="10" k1="-0.1371" k2="-0.0228" k3="0.0094"/>
-            <vignetting model="pa" focal="50" aperture="5" distance="1000" k1="-0.1371" k2="-0.0228" k3="0.0094"/>
-            <vignetting model="pa" focal="50" aperture="22" distance="10" k1="-0.0992" k2="-0.1120" k3="0.0657"/>
-            <vignetting model="pa" focal="50" aperture="22" distance="1000" k1="-0.0992" k2="-0.1120" k3="0.0657"/>
+            <!-- Taken with Canon EOS 7D M2 -->
+            <vignetting model="pa" focal="50" aperture="1.8" distance="10" k1="-0.7811" k2="0.6696" k3="-0.3022"/>
+            <vignetting model="pa" focal="50" aperture="1.8" distance="1000" k1="-0.7811" k2="0.6696" k3="-0.3022"/>
+            <vignetting model="pa" focal="50" aperture="2.5" distance="10" k1="-0.1216" k2="0.1108" k3="-0.1181"/>
+            <vignetting model="pa" focal="50" aperture="2.5" distance="1000" k1="-0.1216" k2="0.1108" k3="-0.1181"/>
+            <vignetting model="pa" focal="50" aperture="3.5" distance="10" k1="-0.0910" k2="0.0402" k3="-0.0524"/>
+            <vignetting model="pa" focal="50" aperture="3.5" distance="1000" k1="-0.0910" k2="0.0402" k3="-0.0524"/>
+            <vignetting model="pa" focal="50" aperture="5" distance="10" k1="-0.0979" k2="0.0388" k3="-0.0397"/>
+            <vignetting model="pa" focal="50" aperture="5" distance="1000" k1="-0.0979" k2="0.0388" k3="-0.0397"/>
+            <vignetting model="pa" focal="50" aperture="22" distance="10" k1="-0.0952" k2="-0.0559" k3="0.0484"/>
+            <vignetting model="pa" focal="50" aperture="22" distance="1000" k1="-0.0952" k2="-0.0559" k3="0.0484"/>
         </calibration>
     </lens>
 
@@ -7615,12 +7615,13 @@
 
     <lens>
         <maker>Canon</maker>
-        <model>Canon FD 50mm f/1.4 S.C.C.</model>
+        <model>Canon FD 50mm f/1.4 S.S.C.</model>
         <mount>Canon FD</mount>
         <cropfactor>1</cropfactor>
         <calibration>
            <!-- Taken with Sony ILCE-7RM2 and Canon FD to Sony E adapter -->
-            <distortion model="poly3" focal="50" k1="-0.00341"/>
+            <distortion model="ptlens" focal="50" a="-0.00283862" b="0.00747813" c="-0.0157141" />
+            <tca model="poly3" focal="50" br="-0.0000237" vr="1.0000968" bb="0.0000904" vb="0.9998966" />
             <vignetting model="pa" focal="50" aperture="1.4" distance="10" k1="-1.6342" k2="1.3519" k3="-0.5462"/>
             <vignetting model="pa" focal="50" aperture="1.4" distance="1000" k1="-1.6342" k2="1.3519" k3="-0.5462"/>
             <vignetting model="pa" focal="50" aperture="2" distance="10" k1="0.1790" k2="-1.6048" k3="0.7748"/>
@@ -8334,6 +8335,7 @@
     <lens>
         <maker>Canon</maker>
         <model>Canon EF 100-400mm f/4.5-5.6L IS II USM + 1.4x extender</model>
+        <model lang="en">Canon EF 100-400mm f/4.5-5.6L IS II USM + 1.4× ext.</model>
         <mount>Canon EF</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -8362,6 +8364,109 @@
             <vignetting model="pa" focal="200" aperture="5.6" distance="1000" k1="-0.1672" k2="-1.0229" k3="0.6890"/>
             <vignetting model="pa" focal="300" aperture="5.6" distance="10" k1="-1.1033" k2="1.1034" k3="-0.5362"/>
             <vignetting model="pa" focal="300" aperture="5.6" distance="1000" k1="-1.1033" k2="1.1034" k3="-0.5362"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon EF 300mm f/2.8L IS USM</model>
+        <mount>Canon EF</mount>
+        <cropfactor>1.61</cropfactor>
+        <calibration>
+            <!-- Taken with Canon EOS 7D M2 -->
+            <vignetting model="pa" focal="300" aperture="2.8" distance="10" k1="-0.5260" k2="0.4729" k3="-0.2153"/>
+            <vignetting model="pa" focal="300" aperture="2.8" distance="1000" k1="-0.5260" k2="0.4729" k3="-0.2153"/>
+            <vignetting model="pa" focal="300" aperture="4" distance="10" k1="0.0141" k2="-0.0073" k3="-0.0901"/>
+            <vignetting model="pa" focal="300" aperture="4" distance="1000" k1="0.0141" k2="-0.0073" k3="-0.0901"/>
+            <vignetting model="pa" focal="300" aperture="5.6" distance="10" k1="-0.0065" k2="0.0085" k3="-0.0182"/>
+            <vignetting model="pa" focal="300" aperture="5.6" distance="1000" k1="-0.0065" k2="0.0085" k3="-0.0182"/>
+            <vignetting model="pa" focal="300" aperture="8" distance="10" k1="-0.0014" k2="0.0034" k3="-0.0189"/>
+            <vignetting model="pa" focal="300" aperture="8" distance="1000" k1="-0.0014" k2="0.0034" k3="-0.0189"/>
+            <vignetting model="pa" focal="300" aperture="32" distance="10" k1="-0.0114" k2="0.0198" k3="-0.0284"/>
+            <vignetting model="pa" focal="300" aperture="32" distance="1000" k1="-0.0114" k2="0.0198" k3="-0.0284"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon EF 300mm f/2.8L IS USM + 1.4x extender</model>
+        <model lang="en">Canon EF 300mm f/2.8L IS USM + EF 1.4× ext. II</model>
+        <mount>Canon EF</mount>
+        <cropfactor>1.61</cropfactor>
+        <calibration>
+            <!-- Taken with Canon EOS 7D M2 -->
+            <distortion model="ptlens" focal="420" a="0.00167441" b="-0.00369047" c="-0.00572383"/>
+            <vignetting model="pa" focal="420" aperture="4" distance="10" k1="-0.2887" k2="0.2331" k3="-0.1041"/>
+            <vignetting model="pa" focal="420" aperture="4" distance="1000" k1="-0.2887" k2="0.2331" k3="-0.1041"/>
+            <vignetting model="pa" focal="420" aperture="5.6" distance="10" k1="0.0496" k2="-0.0823" k3="0.0428"/>
+            <vignetting model="pa" focal="420" aperture="5.6" distance="1000" k1="0.0496" k2="-0.0823" k3="0.0428"/>
+            <vignetting model="pa" focal="420" aperture="8" distance="10" k1="0.0463" k2="-0.0851" k3="0.0499"/>
+            <vignetting model="pa" focal="420" aperture="8" distance="1000" k1="0.0463" k2="-0.0851" k3="0.0499"/>
+            <vignetting model="pa" focal="420" aperture="11" distance="10" k1="0.0370" k2="-0.0599" k3="0.0326"/>
+            <vignetting model="pa" focal="420" aperture="11" distance="1000" k1="0.0370" k2="-0.0599" k3="0.0326"/>
+            <vignetting model="pa" focal="420" aperture="45" distance="10" k1="-0.0060" k2="0.0419" k3="-0.0284"/>
+            <vignetting model="pa" focal="420" aperture="45" distance="1000" k1="-0.0060" k2="0.0419" k3="-0.0284"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon EF 300mm f/2.8L IS USM + 2x extender</model>
+        <model lang="en">Canon EF 300mm f/2.8L IS USM + EF 2.0× ext. II</model>
+        <mount>Canon EF</mount>
+        <cropfactor>1.61</cropfactor>
+        <calibration>
+            <!-- Taken with Canon EOS 7D M2 -->
+            <vignetting model="pa" focal="600" aperture="5.6" distance="10" k1="-0.0645" k2="-0.0041" k3="0.0170"/>
+            <vignetting model="pa" focal="600" aperture="5.6" distance="1000" k1="-0.0645" k2="-0.0041" k3="0.0170"/>
+            <vignetting model="pa" focal="600" aperture="8" distance="10" k1="0.0038" k2="0.0120" k3="-0.0018"/>
+            <vignetting model="pa" focal="600" aperture="8" distance="1000" k1="0.0038" k2="0.0120" k3="-0.0018"/>
+            <vignetting model="pa" focal="600" aperture="11" distance="10" k1="-0.0031" k2="0.0219" k3="-0.0049"/>
+            <vignetting model="pa" focal="600" aperture="11" distance="1000" k1="-0.0031" k2="0.0219" k3="-0.0049"/>
+            <vignetting model="pa" focal="600" aperture="16" distance="10" k1="-0.0034" k2="0.0167" k3="-0.0008"/>
+            <vignetting model="pa" focal="600" aperture="16" distance="1000" k1="-0.0034" k2="0.0167" k3="-0.0008"/>
+            <vignetting model="pa" focal="600" aperture="22" distance="10" k1="-0.0145" k2="0.0430" k3="-0.0177"/>
+            <vignetting model="pa" focal="600" aperture="22" distance="1000" k1="-0.0145" k2="0.0430" k3="-0.0177"/>
+            <vignetting model="pa" focal="600" aperture="64" distance="10" k1="-0.1187" k2="0.2589" k3="-0.1344"/>
+            <vignetting model="pa" focal="600" aperture="64" distance="1000" k1="-0.1187" k2="0.2589" k3="-0.1344"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon FDn 28mm f/2.8</model>
+        <mount>Canon FD</mount>
+        <cropfactor>1.534</cropfactor>
+        <calibration>
+            <!-- Taken with Sony ILCE-6300 -->
+            <distortion model="ptlens" focal="28" a="0.0015244" b="-0.0075496" c="-0.0006036"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon FDn 100mm f/2.8</model>
+        <mount>Canon FD</mount>
+        <cropfactor>1.534</cropfactor>
+        <calibration>
+            <!-- Taken with Sony ILCE-6300 -->
+            <distortion model="ptlens" focal="100" a="-0.0119438" b="0.0417384" c="-0.0427956"/>
+            <tca model="poly3" focal="100" vr="0.9997932" vb="1.0000220"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Canon</maker>
+        <model>Canon EF 100-300mm f/4.5-5.6 USM</model>
+        <mount>Canon EF</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Canon EOS 6D -->
+            <distortion model="ptlens" focal="100" a="-7.86e-05" b="0.0057882" c="-0.0024446"/>
+            <distortion model="ptlens" focal="150" a="0.0014663" b="0.0062207" c="0.0007607"/>
+            <distortion model="ptlens" focal="200" a="0.0001452" b="0.011971" c="-0.0068364"/>
+            <distortion model="ptlens" focal="250" a="-0.0023475" b="0.0197936" c="-0.0123346"/>
+            <distortion model="ptlens" focal="300" a="0.0045653" b="-0.0003783" c="0.0059824"/>
         </calibration>
     </lens>
 

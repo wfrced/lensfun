@@ -161,7 +161,14 @@
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
     </camera>
-	
+
+    <camera>
+        <maker>Panasonic</maker>
+        <model>DC-G100D</model>
+        <mount>Micro 4/3 System</mount>
+        <cropfactor>2</cropfactor>
+    </camera>
+
     <camera>
         <maker>Panasonic</maker>
         <model>DC-G110</model>
@@ -270,6 +277,14 @@
     </camera>
 
     <camera>
+        <!-- This is an alias for the DMC-G80 -->
+        <maker>Panasonic</maker>
+        <model>DMC-G8</model>
+        <mount>Micro 4/3 System</mount>
+        <cropfactor>2</cropfactor>
+    </camera>
+
+    <camera>
         <maker>Panasonic</maker>
         <model>DMC-GX80</model>
         <mount>Micro 4/3 System</mount>
@@ -362,6 +377,13 @@
 
     <camera>
         <maker>Panasonic</maker>
+        <model>DC-S1RM2</model>
+        <mount>Leica L</mount>
+        <cropfactor>1</cropfactor>
+    </camera>
+
+    <camera>
+        <maker>Panasonic</maker>
         <model>DC-S5</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
@@ -432,6 +454,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G 14mm f/2.5 Asph. + GWC1 0.79x</model>
+        <model lang="en">Lumix G 14mm f/2.5 Asph. + GWC1 0.79×</model>
         <mount>Micro 4/3 System</mount>
         <focal value="14"/>
         <aperture min="2.5" max="22"/>
@@ -500,7 +523,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G X Vario PZ 14-42mm f/3.5-5.6 Asph. Power OIS</model>
-        <model lang="en">Lumix G X Vario PZ 14-42mm f/3.5-5.6</model>
         <mount>Micro 4/3 System</mount>
         <focal min="14" max="42"/>
         <aperture min="3.5" max="22"/>
@@ -644,7 +666,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Vario 14-42mm f/3.5-5.6 II Asph. Mega OIS</model>
-        <model lang="en">Lumix G Vario 14-42mm f/3.5-5.6 II</model>
         <mount>Micro 4/3 System</mount>
         <focal min="14" max="42"/>
         <aperture min="3.5" max="5.6"/>
@@ -730,7 +751,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G X Vario PZ 14-42mm f/3.5-5.6 Asph. Power OIS + GWC1 0.79x</model>
-        <model lang="en">Lumix G X Vario PZ 14-42mm f/3.5-5.6 + GWC1 0.79×</model>
+        <model lang="en">Lumix G X Vario PZ 14-42mm f/3.5-5.6 Asph. Power OIS + GWC1 0.79×</model>
         <mount>Micro 4/3 System</mount>
         <focal min="14" max="42"/>
         <aperture min="3.5" max="22"/>
@@ -968,7 +989,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Vario HD 14-140mm f/4.0-5.8 Asph. Mega OIS</model>
-        <model lang="en">Lumix G Vario HD 14-140mm f/4.0-5.8</model>
         <mount>Micro 4/3 System</mount>
         <focal min="14" max="140"/>
         <aperture min="4" max="22"/>
@@ -1290,7 +1310,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Vario 45-200mm f/4.0-5.6 II</model>
-        <model lang="en">Lumix G Vario 45-200mm f/4.0-5.6 II power OIS</model>
+        <model lang="en">Lumix G Vario 45-200mm f/4.0-5.6 II Power OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -1393,7 +1413,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Vario 100-300mm f/4.0-5.6 Mega OIS</model>
-        <model lang="en">Lumix G Vario 100-300mm f/4.0-5.6</model>
         <mount>Micro 4/3 System</mount>
         <focal min="100" max="300"/>
         <aperture min="4" max="22"/>
@@ -1517,7 +1536,7 @@
         <!-- copy of the "Mega OIS profile, optics reported to be the same -->
         <maker>Panasonic</maker>
         <model>LUMIX G VARIO 100-300/F4.0-5.6II</model>
-        <model lang="en">Lumix G Vario 100-300mm F4-5.6 II Power O.I.S.</model>
+        <model lang="en">Lumix G Vario 100-300mm f/4-5.6 II Power OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -1714,7 +1733,7 @@
         <maker>Panasonic</maker>
         <model>LUMIX G VARIO 35-100/F2.8II</model>
         <!-- same optic as Lumix G VARIO 35-100/F2.8 -->
-        <model lang="en">Lumix G X VARIO 35-100 mm f/2.8 II Power OIS</model>
+        <model lang="en">Lumix G X Vario 35-100mm f/2.8 II Power OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -1732,7 +1751,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G X Vario 12-35mm f/2.8 Asph. Power OIS</model>
-        <model lang="en">Lumix G X Vario 12-35mm f/2.8</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -1767,7 +1785,6 @@
         <!-- copy of the non-"II" profile, optics reported to be the same -->
         <maker>Panasonic</maker>
         <model>Lumix G X Vario 12-35mm f/2.8 II Asph. Power OIS</model>
-        <model lang="en">Lumix G X Vario 12-35mm f/2.8 II</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -1923,7 +1940,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Vario 45-150mm f/4.0-5.6 Asph. Mega OIS</model>
-        <model lang="en">Lumix G Vario 45-150mm f/4.0-5.6</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <calibration>
@@ -2055,6 +2071,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Leica DG Macro-Elmarit 45mm f/2.8</model>
+        <model lang="en">Leica DG Macro-Elmarit 45mm f/2.8 Asph. Mega OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -2069,7 +2086,6 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G X Vario PZ 45-175mm f/4.0-5.6 Asph. Power OIS</model>
-        <model lang="en">Lumix G X Vario PZ 45-175mm f/4.0-5.6</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -2198,6 +2214,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G 14mm f/2.5 II</model>
+        <model lang="en">Lumix G 14mm f/2.5 II Asph.</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -2227,6 +2244,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G 42.5mm f/1.7</model>
+        <model lang="en">Lumix G 42.5mm f/1.7 Asph. Power OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -2764,6 +2782,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix G Macro 30mm f/2.8</model>
+        <model lang="en">Lumix G Macro 30mm f/2.8 Asph. Mega OIS</model>
         <mount>Micro 4/3 System</mount>
         <focal value="30"/>
         <aperture min="2.8" max="22"/>
@@ -2790,6 +2809,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 20-60/F3.5-5.6</model>
+        <model lang="en">Lumix S 20-60mm f/3.5-5.6</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -2870,6 +2890,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 70-300/F4.5-5.6</model>
+        <model lang="en">Lumix S 70-300mm f/4.5-5.6</model>
         <mount>Leica L</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -2942,6 +2963,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 24/F1.8</model>
+        <model lang="en">Lumix S 24mm f/1.8</model>
         <mount>Leica L</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -2964,7 +2986,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>LUMIX S 50/F1.8</model>
-        <model lang="en">Lumix S 50mm f1.8</model>
+        <model lang="en">Lumix S 50mm f/1.8</model>
         <mount>Leica L</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -2999,6 +3021,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 85/F1.8</model>
+        <model lang="en">Lumix S 85mm f/1.8</model>
         <mount>Leica L</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -3021,6 +3044,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>LUMIX S 100mm F2.8 MACRO</model>
+        <model lang="en">Lumix S 100mm f/2.8 Macro</model>
         <mount>Leica L</mount>
         <focal value="100"/>
         <aperture min="2.4" max="22"/>
@@ -3036,6 +3060,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Leica D Summilux 25mm F1.4 Asph.</model>
+        <model lang="en">Leica D Summilux 25mm f/1.4 Asph.</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2.0</cropfactor>
         <calibration>
@@ -3047,7 +3072,7 @@
     <lens>
         <maker>Panasonic</maker>
         <model>LEICA DG 50-200/F2.8-4.0</model>
-        <model lang="en">Leica DG Vario-Elmarit 50-200 mm F2.8-4 Asph OIS</model>
+        <model lang="en">Leica DG Vario-Elmarit 50-200mm f/2.8-4 Asph. OIS</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2.0</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
@@ -3090,12 +3115,12 @@
     <lens>
         <maker>Panasonic</maker>
         <model>LEICA DG SUMMILUX 9/F1.7</model>
-	<model lang="en">Leica DG Summilux 9mm f/1.7</model>
+        <model lang="en">Leica DG Summilux 9mm f/1.7 Asph.</model>
         <mount>Micro 4/3 System</mount>
         <cropfactor>2</cropfactor>
         <aspect-ratio>4:3</aspect-ratio>
         <calibration>
-	    <!-- Taken with DMC-GX8 -->
+            <!-- Taken with DMC-GX8 -->
             <distortion model="ptlens" focal="9" a="0.02807" b="-0.09826" c="0.02753"/>
             <tca model="poly3" focal="9" vr="1.0002079" vb="1.0002006"/>
         </calibration>
@@ -3104,10 +3129,11 @@
     <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 16-35/F4</model>
+        <model lang="en">Lumix S Pro 16-35mm f/4</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
         <calibration>
-             <!-- Taken with Leica SL2 -->
+            <!-- Taken with Leica SL2 -->
             <distortion model="ptlens" focal="16" a="0.020567" b="-0.0595563" c="-0.0351097"/>
             <distortion model="ptlens" focal="20" a="0.00918976" b="-0.0270337" c="-0.0301751"/>
             <distortion model="ptlens" focal="24" a="0.00735381" b="-0.0221845" c="-0.0125501"/>
@@ -3124,6 +3150,7 @@
    <lens>
         <maker>Panasonic</maker>
         <model>Lumix S 35/F1.8</model>
+        <model lang="en">Lumix S 35mm f/1.8</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -3166,6 +3193,243 @@
             <vignetting model="pa" focal="50.0" aperture="11.0" distance="1000" k1="-0.0151976" k2="-0.0905935" k3="0.0523281" />
             <vignetting model="pa" focal="50.0" aperture="16.0" distance="10" k1="-0.0173139" k2="-0.0893025" k3="0.0505323" />
             <vignetting model="pa" focal="50.0" aperture="16.0" distance="1000" k1="-0.0173139" k2="-0.0893025" k3="0.0505323" />
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Panasonic</maker>
+        <model>LUMIX S 28-200/F4-7.1</model>
+        <model lang="en">Lumix S 28–200mm f/4–7.1 Macro OIS</model>
+        <mount>Leica L</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Lumix DC-S5M2X -->
+            <distortion model="ptlens" focal="28.0" a="0.029" b="-0.093" c="0.056" />
+            <distortion model="ptlens" focal="35.0" a="0.021" b="-0.059" c="0.043" />
+            <distortion model="ptlens" focal="40.0" a="0.019" b="-0.056" c="0.06" />
+            <distortion model="ptlens" focal="50.0" a="0.017" b="-0.042" c="0.055" />
+            <distortion model="ptlens" focal="60.0" a="0.009" b="-0.014" c="0.027" />
+            <distortion model="ptlens" focal="70.0" a="-0.004" b="0.036" c="-0.035" />
+            <distortion model="ptlens" focal="80.0" a="-0.004" b="0.037" c="-0.041" />
+            <distortion model="ptlens" focal="100.0" a="-0.007" b="0.052" c="-0.065" />
+            <distortion model="ptlens" focal="150.0" a="0.002" b="0.016" c="-0.025" />
+            <distortion model="ptlens" focal="200.0" a="-0.002" b="0.021" c="-0.018" />
+            <tca model="poly3" focal="28.0" vr="1.0001720" vb="1.0001587" />
+            <tca model="poly3" focal="35.0" vr="1.0000497" vb="1.0002772" />
+            <tca model="poly3" focal="40.0" vr="0.9999902" vb="1.0003451" />
+            <tca model="poly3" focal="50.0" vr="0.9999155" vb="1.0003552" />
+            <tca model="poly3" focal="60.0" vr="0.9998506" vb="1.0003446" />
+            <tca model="poly3" focal="70.0" vr="0.9998191" vb="1.0002625" />
+            <tca model="poly3" focal="80.0" vr="0.9997939" vb="1.0002049" />
+            <tca model="poly3" focal="100.0" vr="0.9997195" vb="1.0001263" />
+            <tca model="poly3" focal="150.0" vr="0.9995628" vb="0.9999695" />
+            <tca model="poly3" focal="200.0" vr="0.9994932" vb="0.9998171" />
+        </calibration>
+    </lens>
+
+	<lens>
+        <maker>Panasonic</maker>
+        <model>LUMIX S 24-60/F2.8</model>
+        <model lang="en">Lumix S 24-60mm f/2.8</model>
+        <mount>Leica L</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Lumix DC-S1RM2, 2025-07-25, Lumix vignetting compensation: Off (camera defaults to On) -->
+            <distortion model="ptlens" focal="24.0" a="0.0171004" b="-0.0473856" c="-0.0141312" />
+            <distortion model="ptlens" focal="28.0" a="0.0112624" b="-0.028363" c="-0.0121185" />
+            <distortion model="ptlens" focal="35.0" a="0.00609993" b="-0.00991404" c="-0.00829916" />
+            <distortion model="ptlens" focal="40.0" a="0.00586514" b="-0.00844458" c="-0.00295463" />
+            <distortion model="ptlens" focal="50.0" a="0.00391764" b="-0.0025545" c="0.00259566" />
+            <distortion model="ptlens" focal="60.0" a="0.00123658" b="0.00753321" c="0.00147632" />
+            <tca model="poly3" focal="24.0" br="-0.0001197" vr="1.0004802" bb="0.0000985" vb="0.9998764" />
+            <tca model="poly3" focal="28.0" br="-0.0000636" vr="1.0002721" bb="0.0000430" vb="0.9999815" />
+            <tca model="poly3" focal="35.0" br="-0.0000229" vr="1.0001225" bb="0.0000137" vb="1.0000401" />
+            <tca model="poly3" focal="40.0" br="0.0000026" vr="1.0000464" bb="-0.0000115" vb="1.0000676" />
+            <tca model="poly3" focal="50.0" br="0.0000125" vr="0.9999602" bb="-0.0000281" vb="1.0000830" />
+            <tca model="poly3" focal="60.0" br="0.0000245" vr="0.9999013" bb="-0.0000186" vb="1.0000235" />
+            <vignetting model="pa" focal="24.0" aperture="2.8" distance="10" k1="0.0402708" k2="-1.8576086" k3="1.0275998" />
+            <vignetting model="pa" focal="24.0" aperture="2.8" distance="1000" k1="0.0402708" k2="-1.8576086" k3="1.0275998" />
+            <vignetting model="pa" focal="24.0" aperture="4.0" distance="10" k1="-0.1377716" k2="-0.6077057" k3="0.0847848" />
+            <vignetting model="pa" focal="24.0" aperture="4.0" distance="1000" k1="-0.1377716" k2="-0.6077057" k3="0.0847848" />
+            <vignetting model="pa" focal="24.0" aperture="5.6" distance="10" k1="-0.3047820" k2="-0.0842430" k3="-0.1353514" />
+            <vignetting model="pa" focal="24.0" aperture="5.6" distance="1000" k1="-0.3047820" k2="-0.0842430" k3="-0.1353514" />
+            <vignetting model="pa" focal="24.0" aperture="8.0" distance="10" k1="-0.2929714" k2="-0.2221360" k3="0.0655630" />
+            <vignetting model="pa" focal="24.0" aperture="8.0" distance="1000" k1="-0.2929714" k2="-0.2221360" k3="0.0655630" />
+            <vignetting model="pa" focal="24.0" aperture="22.0" distance="10" k1="-0.2457093" k2="-0.3714247" k3="0.1970101" />
+            <vignetting model="pa" focal="24.0" aperture="22.0" distance="1000" k1="-0.2457093" k2="-0.3714247" k3="0.1970101" />
+            <vignetting model="pa" focal="28.0" aperture="2.8" distance="10" k1="-0.0795455" k2="-1.1659975" k3="0.6451554" />
+            <vignetting model="pa" focal="28.0" aperture="2.8" distance="1000" k1="-0.0795455" k2="-1.1659975" k3="0.6451554" />
+            <vignetting model="pa" focal="28.0" aperture="4.0" distance="10" k1="-0.1389879" k2="-0.4462554" k3="0.1217130" />
+            <vignetting model="pa" focal="28.0" aperture="4.0" distance="1000" k1="-0.1389879" k2="-0.4462554" k3="0.1217130" />
+            <vignetting model="pa" focal="28.0" aperture="5.6" distance="10" k1="-0.2657047" k2="-0.0580846" k3="-0.0588352" />
+            <vignetting model="pa" focal="28.0" aperture="5.6" distance="1000" k1="-0.2657047" k2="-0.0580846" k3="-0.0588352" />
+            <vignetting model="pa" focal="28.0" aperture="8.0" distance="10" k1="-0.2150839" k2="-0.2596139" k3="0.1410760" />
+            <vignetting model="pa" focal="28.0" aperture="8.0" distance="1000" k1="-0.2150839" k2="-0.2596139" k3="0.1410760" />
+            <vignetting model="pa" focal="28.0" aperture="22.0" distance="10" k1="-0.2258090" k2="-0.2255541" k3="0.1152692" />
+            <vignetting model="pa" focal="28.0" aperture="22.0" distance="1000" k1="-0.2258090" k2="-0.2255541" k3="0.1152692" />
+            <vignetting model="pa" focal="35.0" aperture="2.8" distance="10" k1="-0.1788428" k2="-0.7414525" k3="0.4429121" />
+            <vignetting model="pa" focal="35.0" aperture="2.8" distance="1000" k1="-0.1788428" k2="-0.7414525" k3="0.4429121" />
+            <vignetting model="pa" focal="35.0" aperture="4.0" distance="10" k1="-0.1296057" k2="-0.3102650" k3="0.0704021" />
+            <vignetting model="pa" focal="35.0" aperture="4.0" distance="1000" k1="-0.1296057" k2="-0.3102650" k3="0.0704021" />
+            <vignetting model="pa" focal="35.0" aperture="5.6" distance="10" k1="-0.2078275" k2="-0.0959597" k3="0.0221064" />
+            <vignetting model="pa" focal="35.0" aperture="5.6" distance="1000" k1="-0.2078275" k2="-0.0959597" k3="0.0221064" />
+            <vignetting model="pa" focal="35.0" aperture="8.0" distance="10" k1="-0.1913375" k2="-0.1799782" k3="0.1001191" />
+            <vignetting model="pa" focal="35.0" aperture="8.0" distance="1000" k1="-0.1913375" k2="-0.1799782" k3="0.1001191" />
+            <vignetting model="pa" focal="35.0" aperture="22.0" distance="10" k1="-0.2010035" k2="-0.1708661" k3="0.0956465" />
+            <vignetting model="pa" focal="35.0" aperture="22.0" distance="1000" k1="-0.2010035" k2="-0.1708661" k3="0.0956465" />
+            <vignetting model="pa" focal="40.0" aperture="2.8" distance="10" k1="-0.2346472" k2="-0.5540766" k3="0.3518004" />
+            <vignetting model="pa" focal="40.0" aperture="2.8" distance="1000" k1="-0.2346472" k2="-0.5540766" k3="0.3518004" />
+            <vignetting model="pa" focal="40.0" aperture="4.0" distance="10" k1="-0.1160739" k2="-0.2647043" k3="0.0529762" />
+            <vignetting model="pa" focal="40.0" aperture="4.0" distance="1000" k1="-0.1160739" k2="-0.2647043" k3="0.0529762" />
+            <vignetting model="pa" focal="40.0" aperture="5.6" distance="10" k1="-0.1778509" k2="-0.1018628" k3="0.0384243" />
+            <vignetting model="pa" focal="40.0" aperture="5.6" distance="1000" k1="-0.1778509" k2="-0.1018628" k3="0.0384243" />
+            <vignetting model="pa" focal="40.0" aperture="8.0" distance="10" k1="-0.1783769" k2="-0.1408065" k3="0.0783605" />
+            <vignetting model="pa" focal="40.0" aperture="8.0" distance="1000" k1="-0.1783769" k2="-0.1408065" k3="0.0783605" />
+            <vignetting model="pa" focal="40.0" aperture="22.0" distance="10" k1="-0.1814882" k2="-0.1306467" k3="0.0735657" />
+            <vignetting model="pa" focal="40.0" aperture="22.0" distance="1000" k1="-0.1814882" k2="-0.1306467" k3="0.0735657" />
+            <vignetting model="pa" focal="50.0" aperture="2.8" distance="10" k1="-0.3645387" k2="-0.1481221" k3="0.1231834" />
+            <vignetting model="pa" focal="50.0" aperture="2.8" distance="1000" k1="-0.3645387" k2="-0.1481221" k3="0.1231834" />
+            <vignetting model="pa" focal="50.0" aperture="4.0" distance="10" k1="-0.0813019" k2="-0.2417309" k3="0.0535793" />
+            <vignetting model="pa" focal="50.0" aperture="4.0" distance="1000" k1="-0.0813019" k2="-0.2417309" k3="0.0535793" />
+            <vignetting model="pa" focal="50.0" aperture="5.6" distance="10" k1="-0.1356022" k2="-0.0995076" k3="0.0517945" />
+            <vignetting model="pa" focal="50.0" aperture="5.6" distance="1000" k1="-0.1356022" k2="-0.0995076" k3="0.0517945" />
+            <vignetting model="pa" focal="50.0" aperture="8.0" distance="10" k1="-0.1390320" k2="-0.1041090" k3="0.0588695" />
+            <vignetting model="pa" focal="50.0" aperture="8.0" distance="1000" k1="-0.1390320" k2="-0.1041090" k3="0.0588695" />
+            <vignetting model="pa" focal="50.0" aperture="22.0" distance="10" k1="-0.1453166" k2="-0.1109888" k3="0.0662383" />
+            <vignetting model="pa" focal="50.0" aperture="22.0" distance="1000" k1="-0.1453166" k2="-0.1109888" k3="0.0662383" />
+            <vignetting model="pa" focal="60.0" aperture="2.8" distance="10" k1="-0.4413794" k2="0.3094814" k3="-0.4229016" />
+            <vignetting model="pa" focal="60.0" aperture="2.8" distance="1000" k1="-0.4413794" k2="0.3094814" k3="-0.4229016" />
+            <vignetting model="pa" focal="60.0" aperture="4.0" distance="10" k1="-0.1678760" k2="0.1887670" k3="-0.3510200" />
+            <vignetting model="pa" focal="60.0" aperture="4.0" distance="1000" k1="-0.1678760" k2="0.1887670" k3="-0.3510200" />
+            <vignetting model="pa" focal="60.0" aperture="5.6" distance="10" k1="-0.1079407" k2="-0.0984617" k3="0.0421855" />
+            <vignetting model="pa" focal="60.0" aperture="5.6" distance="1000" k1="-0.1079407" k2="-0.0984617" k3="0.0421855" />
+            <vignetting model="pa" focal="60.0" aperture="8.0" distance="10" k1="-0.1004203" k2="-0.1397293" k3="0.0802965" />
+            <vignetting model="pa" focal="60.0" aperture="8.0" distance="1000" k1="-0.1004203" k2="-0.1397293" k3="0.0802965" />
+            <vignetting model="pa" focal="60.0" aperture="22.0" distance="10" k1="-0.1071268" k2="-0.1353250" k3="0.0764303" />
+            <vignetting model="pa" focal="60.0" aperture="22.0" distance="1000" k1="-0.1071268" k2="-0.1353250" k3="0.0764303" />
+        </calibration>
+    </lens>
+
+	<lens>
+        <maker>Panasonic</maker>
+        <model>LUMIX S 18-40/F4.5-6.3</model>
+        <model lang="en">Lumix S 18-40mm f/4.5-6.3</model>
+        <mount>Leica L</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Lumix DC-S1RM2, 2025-07-31, Lumix vignetting compensation: Off (camera defaults to On) -->
+            <distortion model="ptlens" focal="18.0" a="0.0172231" b="-0.0547419" c="-0.0226234" />
+            <distortion model="ptlens" focal="20.0" a="0.0100286" b="-0.0316991" c="-0.0265309" />
+            <distortion model="ptlens" focal="24.0" a="0.00995102" b="-0.0313684" c="-0.000521819" />
+            <distortion model="ptlens" focal="28.0" a="0.00538997" b="-0.0140614" c="-0.00255715" />
+            <distortion model="ptlens" focal="35.0" a="0.00472381" b="-0.00749305" c="-0.000484641" />
+            <distortion model="ptlens" focal="40.0" a="0.00295674" b="0.000371993" c="-0.00504761" />
+            <tca model="poly3" focal="18.0" br="0.0000155" vr="1.0000512" bb="-0.0000056" vb="1.0002310" />
+            <tca model="poly3" focal="20.0" br="0.0000050" vr="1.0000602" bb="0.0000158" vb="1.0002006" />
+            <tca model="poly3" focal="24.0" br="-0.0000089" vr="1.0000737" bb="0.0000667" vb="1.0000854" />
+            <tca model="poly3" focal="28.0" br="-0.0000264" vr="1.0001099" bb="0.0000368" vb="1.0000837" />
+            <tca model="poly3" focal="35.0" br="-0.0000193" vr="1.0001171" bb="0.0000524" vb="0.9999942" />
+            <tca model="poly3" focal="40.0" br="-0.0000278" vr="1.0001350" bb="0.0000148" vb="0.9999821" />
+            <vignetting model="pa" focal="18.0" aperture="4.5" distance="10" k1="-0.8722610" k2="0.0254309" k3="-0.0233910" />
+            <vignetting model="pa" focal="18.0" aperture="4.5" distance="1000" k1="-0.8722610" k2="0.0254309" k3="-0.0233910" />
+            <vignetting model="pa" focal="18.0" aperture="5.6" distance="10" k1="-0.5631930" k2="-0.2712192" k3="0.0627490" />
+            <vignetting model="pa" focal="18.0" aperture="5.6" distance="1000" k1="-0.5631930" k2="-0.2712192" k3="0.0627490" />
+            <vignetting model="pa" focal="18.0" aperture="8.0" distance="10" k1="-0.6435200" k2="0.2708697" k3="-0.2713493" />
+            <vignetting model="pa" focal="18.0" aperture="8.0" distance="1000" k1="-0.6435200" k2="0.2708697" k3="-0.2713493" />
+            <vignetting model="pa" focal="18.0" aperture="11.0" distance="10" k1="-0.6258220" k2="-0.0209245" k3="0.1033902" />
+            <vignetting model="pa" focal="18.0" aperture="11.0" distance="1000" k1="-0.6258220" k2="-0.0209245" k3="0.1033902" />
+            <vignetting model="pa" focal="18.0" aperture="22.0" distance="10" k1="-0.5331321" k2="-0.1847647" k3="0.2027267" />
+            <vignetting model="pa" focal="18.0" aperture="22.0" distance="1000" k1="-0.5331321" k2="-0.1847647" k3="0.2027267" />
+            <vignetting model="pa" focal="20.0" aperture="4.7" distance="10" k1="-0.8837018" k2="0.1302233" k3="0.0886717" />
+            <vignetting model="pa" focal="20.0" aperture="4.7" distance="1000" k1="-0.8837018" k2="0.1302233" k3="0.0886717" />
+            <vignetting model="pa" focal="20.0" aperture="5.6" distance="10" k1="-0.4542472" k2="-0.6878442" k3="0.5488650" />
+            <vignetting model="pa" focal="20.0" aperture="5.6" distance="1000" k1="-0.4542472" k2="-0.6878442" k3="0.5488650" />
+            <vignetting model="pa" focal="20.0" aperture="8.0" distance="10" k1="-0.5472755" k2="-0.0741003" k3="0.0854461" />
+            <vignetting model="pa" focal="20.0" aperture="8.0" distance="1000" k1="-0.5472755" k2="-0.0741003" k3="0.0854461" />
+            <vignetting model="pa" focal="20.0" aperture="11.0" distance="10" k1="-0.5672401" k2="-0.1100603" k3="0.1763732" />
+            <vignetting model="pa" focal="20.0" aperture="11.0" distance="1000" k1="-0.5672401" k2="-0.1100603" k3="0.1763732" />
+            <vignetting model="pa" focal="20.0" aperture="22.0" distance="10" k1="-0.5102653" k2="-0.1784643" k3="0.2005212" />
+            <vignetting model="pa" focal="20.0" aperture="22.0" distance="1000" k1="-0.5102653" k2="-0.1784643" k3="0.2005212" />
+            <vignetting model="pa" focal="24.0" aperture="5.0" distance="10" k1="-0.7403584" k2="-0.0534138" k3="0.2061017" />
+            <vignetting model="pa" focal="24.0" aperture="5.0" distance="1000" k1="-0.7403584" k2="-0.0534138" k3="0.2061017" />
+            <vignetting model="pa" focal="24.0" aperture="5.6" distance="10" k1="-0.5003008" k2="-0.4935298" k3="0.4350140" />
+            <vignetting model="pa" focal="24.0" aperture="5.6" distance="1000" k1="-0.5003008" k2="-0.4935298" k3="0.4350140" />
+            <vignetting model="pa" focal="24.0" aperture="8.0" distance="10" k1="-0.4794978" k2="-0.0826768" k3="0.0728229" />
+            <vignetting model="pa" focal="24.0" aperture="8.0" distance="1000" k1="-0.4794978" k2="-0.0826768" k3="0.0728229" />
+            <vignetting model="pa" focal="24.0" aperture="11.0" distance="10" k1="-0.4935872" k2="-0.1034739" k3="0.1436809" />
+            <vignetting model="pa" focal="24.0" aperture="11.0" distance="1000" k1="-0.4935872" k2="-0.1034739" k3="0.1436809" />
+            <vignetting model="pa" focal="24.0" aperture="25.0" distance="10" k1="-0.4558573" k2="-0.1391543" k3="0.1505170" />
+            <vignetting model="pa" focal="24.0" aperture="25.0" distance="1000" k1="-0.4558573" k2="-0.1391543" k3="0.1505170" />
+            <vignetting model="pa" focal="28.0" aperture="5.4" distance="10" k1="-0.6597256" k2="-0.0684762" k3="0.1800833" />
+            <vignetting model="pa" focal="28.0" aperture="5.4" distance="1000" k1="-0.6597256" k2="-0.0684762" k3="0.1800833" />
+            <vignetting model="pa" focal="28.0" aperture="5.6" distance="10" k1="-0.5901210" k2="-0.2164252" k3="0.2691548" />
+            <vignetting model="pa" focal="28.0" aperture="5.6" distance="1000" k1="-0.5901210" k2="-0.2164252" k3="0.2691548" />
+            <vignetting model="pa" focal="28.0" aperture="8.0" distance="10" k1="-0.3724239" k2="-0.1811066" k3="0.0998872" />
+            <vignetting model="pa" focal="28.0" aperture="8.0" distance="1000" k1="-0.3724239" k2="-0.1811066" k3="0.0998872" />
+            <vignetting model="pa" focal="28.0" aperture="11.0" distance="10" k1="-0.4448145" k2="-0.0874513" k3="0.1155644" />
+            <vignetting model="pa" focal="28.0" aperture="11.0" distance="1000" k1="-0.4448145" k2="-0.0874513" k3="0.1155644" />
+            <vignetting model="pa" focal="28.0" aperture="27.0" distance="10" k1="-0.3864782" k2="-0.1298782" k3="0.1183165" />
+            <vignetting model="pa" focal="28.0" aperture="27.0" distance="1000" k1="-0.3864782" k2="-0.1298782" k3="0.1183165" />
+            <vignetting model="pa" focal="35.0" aperture="6.0" distance="10" k1="-0.5594226" k2="-0.0548418" k3="0.1288278" />
+            <vignetting model="pa" focal="35.0" aperture="6.0" distance="1000" k1="-0.5594226" k2="-0.0548418" k3="0.1288278" />
+            <vignetting model="pa" focal="35.0" aperture="8.0" distance="10" k1="-0.3279963" k2="-0.1872507" k3="0.1003422" />
+            <vignetting model="pa" focal="35.0" aperture="8.0" distance="1000" k1="-0.3279963" k2="-0.1872507" k3="0.1003422" />
+            <vignetting model="pa" focal="35.0" aperture="11.0" distance="10" k1="-0.3657632" k2="-0.0923684" k3="0.0990056" />
+            <vignetting model="pa" focal="35.0" aperture="11.0" distance="1000" k1="-0.3657632" k2="-0.0923684" k3="0.0990056" />
+            <vignetting model="pa" focal="35.0" aperture="16.0" distance="10" k1="-0.3772778" k2="-0.0697751" k3="0.0851184" />
+            <vignetting model="pa" focal="35.0" aperture="16.0" distance="1000" k1="-0.3772778" k2="-0.0697751" k3="0.0851184" />
+            <vignetting model="pa" focal="35.0" aperture="29.0" distance="10" k1="-0.3479047" k2="-0.0899547" k3="0.0863256" />
+            <vignetting model="pa" focal="35.0" aperture="29.0" distance="1000" k1="-0.3479047" k2="-0.0899547" k3="0.0863256" />
+            <vignetting model="pa" focal="40.0" aperture="6.3" distance="10" k1="-0.5009945" k2="-0.0484360" k3="0.0995817" />
+            <vignetting model="pa" focal="40.0" aperture="6.3" distance="1000" k1="-0.5009945" k2="-0.0484360" k3="0.0995817" />
+            <vignetting model="pa" focal="40.0" aperture="8.0" distance="10" k1="-0.2496585" k2="-0.3414070" k3="0.1948747" />
+            <vignetting model="pa" focal="40.0" aperture="8.0" distance="1000" k1="-0.2496585" k2="-0.3414070" k3="0.1948747" />
+            <vignetting model="pa" focal="40.0" aperture="11.0" distance="10" k1="-0.3294723" k2="-0.0932512" k3="0.0938019" />
+            <vignetting model="pa" focal="40.0" aperture="11.0" distance="1000" k1="-0.3294723" k2="-0.0932512" k3="0.0938019" />
+            <vignetting model="pa" focal="40.0" aperture="16.0" distance="10" k1="-0.3390624" k2="-0.0699540" k3="0.0763292" />
+            <vignetting model="pa" focal="40.0" aperture="16.0" distance="1000" k1="-0.3390624" k2="-0.0699540" k3="0.0763292" />
+            <vignetting model="pa" focal="40.0" aperture="32.0" distance="10" k1="-0.3033613" k2="-0.1034112" k3="0.0879477" />
+            <vignetting model="pa" focal="40.0" aperture="32.0" distance="1000" k1="-0.3033613" k2="-0.1034112" k3="0.0879477" />
+        </calibration>
+    </lens>
+
+	<lens>
+        <maker>Panasonic</maker>
+        <model>LUMIX S 24-105/F4</model>
+        <model lang="en">Lumix S 24-105mm f/4 Macro OIS</model>
+        <mount>Leica L</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Lumix DC-S1RM2 -->
+            <distortion model="ptlens" focal="24" a="0.0265792" b="-0.091431" c="0.0204454"/>
+            <distortion model="ptlens" focal="35" a="0.0094281" b="-0.0285832" c="0.0075938"/>
+            <distortion model="ptlens" focal="50" a="0.0040132" b="-0.0094748" c="0.0076177"/>
+            <distortion model="ptlens" focal="70" a="0.0087271" b="-0.019369" c="0.022751"/>
+            <distortion model="ptlens" focal="85" a="0.0006417" b="0.0016216" c="0.0057066"/>
+            <distortion model="ptlens" focal="105" a="-0.0008496" b="0.0022377" c="0.0054191"/>
+            <tca model="poly3" focal="24" vr="1.0001372" vb="1.0001460"/>
+            <tca model="poly3" focal="35" vr="1.0001947" vb="1.0000454"/>
+            <tca model="poly3" focal="50" vr="1.0001681" vb="0.9999920"/>
+            <tca model="poly3" focal="70" vr="0.9999579" vb="1.0000222"/>
+            <tca model="poly3" focal="85" vr="0.9998937" vb="0.9999794"/>
+            <tca model="poly3" focal="105" vr="0.9998728" vb="0.9998818"/>
+        </calibration>
+    </lens>
+
+	<lens>
+        <maker>Panasonic</maker>
+        <model>Lumix S 14-28/F4-5.6</model>
+        <model lang="en">Lumix S 14-28mm f/4-5.6 Macro</model>
+        <mount>Leica L</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Lumix DC-S1RM2 -->
+            <distortion model="ptlens" focal="14" a="0.031958" b="-0.118304" c="0.061733"/>
+            <distortion model="ptlens" focal="16" a="0.0228642" b="-0.0898582" c="0.0527534"/>
+            <distortion model="ptlens" focal="18" a="0.0094739" b="-0.0417768" c="0.0106118"/>
+            <distortion model="ptlens" focal="20" a="0.0063995" b="-0.0316348" c="0.0108464"/>
+            <distortion model="ptlens" focal="24" a="0.0071315" b="-0.0309214" c="0.0161036"/>
+            <distortion model="ptlens" focal="28" a="0.003998" b="-0.0203516" c="0.0099681"/>
         </calibration>
     </lens>
 

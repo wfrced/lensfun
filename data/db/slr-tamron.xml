@@ -32,23 +32,23 @@
 
     <lens>
         <maker>Tamron</maker>
-        <model>Tamron 10-24mm f/3.5-4.5 Di II VC HLD B023</model>
+        <model>Tamron 10-24mm F/3.5-4.5 Di II VC HLD B023</model>
         <model lang="en">Tamron 10-24mm f/3.5-4.5 Di II VC HLD</model>
-        <mount>Canon EF</mount>
         <mount>Nikon F AF</mount>
-        <cropfactor>1.6</cropfactor>
+        <mount>Canon EF</mount>
+        <cropfactor>1.528</cropfactor>
         <calibration>
-            <!-- Taken with Canon EOS 70D -->
-            <distortion model="poly3" focal="10" k1="-0.0158494"/>
-            <distortion model="poly3" focal="13" k1="-0.00687779"/>
-            <distortion model="poly3" focal="16" k1="-0.000681061"/>
-            <distortion model="poly3" focal="20" k1="0.00368512"/>
-            <distortion model="poly3" focal="24" k1="0.00491874"/>
-            <tca model="poly3" focal="10" vr="1.0005274" vb="0.9999258"/>
-            <tca model="poly3" focal="13" vr="1.0001195" vb="1.0000929"/>
-            <tca model="poly3" focal="16" vr="0.9999640" vb="1.0002714"/>
-            <tca model="poly3" focal="20" vr="0.9998870" vb="1.0002527"/>
-            <tca model="poly3" focal="24" vr="0.9999772" vb="1.0001111"/>
+             <!-- Taken with Nikon D500 -->
+            <distortion model="ptlens" focal="10.0" a="0.023" b="-0.105" c="0.102" />
+            <distortion model="ptlens" focal="13.0" a="0.011" b="-0.062" c="0.076" />
+            <distortion model="ptlens" focal="15.0" a="0.001" b="-0.017" c="0.029" />
+            <distortion model="ptlens" focal="18.0" a="-0.003" b="0.009" c="-0.002" />
+            <distortion model="ptlens" focal="20.0" a="-0.009" b="0.033" c="-0.028" />
+            <distortion model="ptlens" focal="24.0" a="-0.002" b="0.010" c="-0.006" />
+            <tca model="poly3" focal="10.0" vr="1.0004341" vb="1.0000180" />
+            <tca model="poly3" focal="14.0" vr="1.0000177" vb="1.0003101" />
+            <tca model="poly3" focal="18.0" vr="0.9998878" vb="1.0004328" />
+            <tca model="poly3" focal="24.0" vr="0.9999647" vb="1.0001641" />
         </calibration>
     </lens>
 
@@ -566,9 +566,7 @@
 
     <lens>
         <maker>Tamron</maker>
-        <model>Tamron SP AF 28-75mm f/2.8 XR Di LD Aspherical (IF)</model>
-        <model lang="en">Tamron SP AF 28-75mm f/2.8 XR Di (IF) Macro</model>
-        <!-- This is an alias for Sony 28-75mm F2.8 SAM (SAL2875) -->
+        <model>Tamron SP AF 28-75mm f/2.8 XR Di LD Aspherical (IF) Macro</model>
         <mount>Canon EF</mount>
         <mount>Nikon F AF</mount>
         <mount>Pentax KAF</mount>
@@ -829,6 +827,28 @@
         </calibration>
     </lens>
 
+	<lens>
+        <maker>Tamron</maker>
+        <model>Tamron AF 70-300mm F4-5.6 LD Macro 1:2</model>
+        <model lang="en">Tamron AF 70-300mm f/4-5.6 Di LD Tele-Macro (1:2)</model>
+        <mount>Pentax KAF2</mount>
+        <mount>Canon EF</mount>
+        <mount>Nikon F AF</mount>
+        <mount>Sony Alpha</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Pentax K-1 -->
+            <tca model="poly3" focal="70" vr="1.0001184" vb="1.0000055"/>
+            <tca model="poly3" focal="100" vr="1.0000337" vb="0.9999270"/>
+            <tca model="poly3" focal="133" vr="0.9999252" vb="0.9997182"/>
+            <tca model="poly3" focal="160" vr="0.9998659" vb="0.9996898"/>
+            <tca model="poly3" focal="200" vr="0.9997676" vb="0.9997167"/>
+            <tca model="poly3" focal="240" vr="0.9996247" vb="0.9997468"/>
+            <tca model="poly3" focal="260" vr="0.9995887" vb="0.9997910"/>
+            <tca model="poly3" focal="300" vr="0.9995273" vb="0.9998026"/>
+        </calibration>
+    </lens>
+
     <lens>
         <maker>Tamron</maker>
         <model>Tamron AF 70-300mm f/4-5.6 LD Macro 1:2</model>
@@ -1074,6 +1094,21 @@
             <vignetting model="pa" focal="90" aperture="32" distance="1.5" k1="-0.0777" k2="0.0766" k3="-0.0380"/>
             <vignetting model="pa" focal="90" aperture="32" distance="1000" k1="-0.0557" k2="0.0276" k3="-0.0118"/>
         </calibration>
+    </lens>
+
+	<lens>
+        <maker>Tamron</maker>
+        <model>Tamron SP AF 90mm F2.8 (172E)</model>
+		<model lang="en">Tamron SP AF 90mm f/2.8 Di Macro 172E</model>
+        <mount>Nikon F AF</mount>
+        <mount>Canon EF</mount>
+        <mount>Pentax KAF2</mount>
+        <mount>Sony Alpha</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+			<!-- Taken with Pentax K-1 -->
+			<tca model="poly3" focal="90" vr="1.0000582" vb="0.9997952"/>
+		</calibration>
     </lens>
 
     <lens>
@@ -1582,27 +1617,15 @@
 
     <lens>
         <maker>Tamron</maker>
-        <model>Tamron SP 90mm f/2.8 Di VC USD Macro 1:1</model>
+        <model>Tamron SP 90mm F/2.8 Di VC USD MACRO 1:1 F004</model>
         <model lang="en">Tamron SP 90mm f/2.8 Di VC USD Macro 1:1</model>
+        <mount>Canon EF</mount>
+        <mount>Sony Alpha</mount>
         <mount>Nikon F AF</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
-            <!-- Taken with Nikon D750 -->
-            <distortion model="ptlens" focal="90.0" a="-0.002" b="0.009" c="-0.011" />
-            <tca model="poly3" focal="90.0" vr="1.0002" vb="1.00004" />
-        </calibration>
-    </lens>
-
-    <lens>
-        <maker>Tamron</maker>
-        <model>TAMRON SP 90mm F/2.8 Di VC USD MACRO1:1 F004</model>
-        <model lang="en">Tamron SP 90mm F/2.8 Di VC USD Macro 1:1</model>
-        <mount>Canon EF</mount>
-        <cropfactor>1.0</cropfactor>
-        <calibration>
-            <!-- Taken with Canon EOS 5D Mark IV -->
-            <distortion model="ptlens" focal="90.0" a="-0.002" b="0.009" c="-0.011" />
-            <tca model="poly3" focal="90.0" vr="1.0002" vb="1.00004" />
+            <distortion model="ptlens" focal="90.0" a="-0.002" b="0.009" c="-0.011"/>
+            <tca model="poly3" focal="90.0" vr="1.0002" vb="1.00004"/>
         </calibration>
     </lens>
 
@@ -1950,7 +1973,7 @@
 
     <lens>
         <maker>Tamron</maker>
-        <model>TAMRON 100-400mm F/4.5-6.3 Di VC USD A035</model>
+        <model>Tamron 100-400mm F/4.5-6.3 Di VC USD A035</model>
         <mount>Nikon F AF</mount>
         <mount>Canon EF</mount>
         <cropfactor>1.0</cropfactor>

@@ -50,6 +50,15 @@
     <camera>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
+        <model>Leica SL3-S</model>
+        <model lang="en">SL3-S</model>
+        <mount>Leica L</mount>
+        <cropfactor>1</cropfactor>
+    </camera>
+
+    <camera>
+        <maker>Leica Camera AG</maker>
+        <maker lang="en">Leica</maker>
         <model>Leica T (Typ 701)</model>
         <model lang="en">T (Typ 701)</model>
         <mount>Leica L</mount>
@@ -93,7 +102,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>Summicron TL 1:2 23 ASPH.</model>
+        <model>Summicron-TL 1:2/23 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1.53</cropfactor>
         <calibration>
@@ -115,7 +124,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>Summilux-TL 1:1.4/35 ASPH.</model>
+        <model>Summilux-TL 1:1.4/35 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1.53</cropfactor>
         <calibration>
@@ -127,7 +136,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>Elmarit-TL 1:2.8/18 ASPH.</model>
+        <model>Elmarit-TL 1:2.8/18 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1.53</cropfactor>
         <calibration>
@@ -139,7 +148,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>Vario-Elmarit-SL 1:2.8/24-70 ASPH.</model>
+        <model>Vario-Elmarit-SL 1:2.8/24-70 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -155,7 +164,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>APO-Summicron-SL 1:2/50 ASPH.</model>
+        <model>APO-Summicron-SL 1:2/50 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -167,7 +176,7 @@
     <lens>
         <maker>Leica Camera AG</maker>
         <maker lang="en">Leica</maker>
-        <model>APO-Summicron-SL 1:2/35 ASPH.</model>
+        <model>APO-Summicron-SL 1:2/35 Asph.</model>
         <mount>Leica L</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>

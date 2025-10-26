@@ -138,6 +138,15 @@
     <camera>
         <maker>Nikon Corporation</maker>
         <maker lang="en">Nikon</maker>
+        <model>Nikon Z5_2</model>
+        <model lang="en">Z5II</model>
+        <mount>Nikon Z</mount>
+        <cropfactor>1</cropfactor>
+    </camera>
+
+    <camera>
+        <maker>Nikon Corporation</maker>
+        <maker lang="en">Nikon</maker>
         <model>Nikon Z 6</model>
         <model lang="en">Z 6</model>
         <mount>Nikon Z</mount>
@@ -398,7 +407,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 14-24mm f/2.8 S</model>
+        <model>Nikkor Z 14-24mm f/2.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -468,7 +477,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 14-30mm f/4 S</model>
+        <model>Nikkor Z 14-30mm f/4 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -545,7 +554,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 24-70mm f/2.8 S</model>
+        <model>Nikkor Z 24-70mm f/2.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -615,7 +624,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 24-70mm f/4 S</model>
+        <model>Nikkor Z 24-70mm f/4 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -685,7 +694,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 20mm f/1.8 S</model>
+        <model>Nikkor Z 20mm f/1.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -715,7 +724,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 50mm f/1.8 S</model>
+        <model>Nikkor Z 50mm f/1.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -741,7 +750,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 70-200mm f/2.8 VR S</model>
+        <model>Nikkor Z 70-200mm f/2.8 VR S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -814,7 +823,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 85mm f/1.8 S</model>
+        <model>Nikkor Z 85mm f/1.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -840,7 +849,7 @@
 	
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 24-200mm f/4-6.3 VR</model>
+        <model>Nikkor Z 24-200mm f/4-6.3 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -932,7 +941,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z DX 16-50mm f/3.5-6.3 VR</model>
+        <model>Nikkor Z DX 16-50mm f/3.5-6.3 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.531</cropfactor>
         <calibration>
@@ -956,7 +965,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 35mm f/1.8 S</model>
+        <model>Nikkor Z 35mm f/1.8 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -989,7 +998,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 40mm f/2</model>
+        <model>Nikkor Z 40mm f/2</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -1016,7 +1025,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z MC 105mm f/2.8 VR S</model>
+        <model>Nikkor Z MC 105mm f/2.8 VR S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1038,7 +1047,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 28-75mm f/2.8</model>
+        <model>Nikkor Z 28-75mm f/2.8</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1054,7 +1063,7 @@
 
      <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 24-120mm f/4 S</model>
+        <model>Nikkor Z 24-120mm f/4 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1162,7 +1171,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 100-400mm f/4.5-5.6 VR S</model>
+        <model>Nikkor Z 100-400mm f/4.5-5.6 VR S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -1258,7 +1267,7 @@
 	
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 50mm f/1.2 S</model>
+        <model>Nikkor Z 50mm f/1.2 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -1289,7 +1298,7 @@
     </lens>
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z DX 50-250mm f/4.5-6.3 VR</model>
+        <model>Nikkor Z DX 50-250mm f/4.5-6.3 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.5</cropfactor>
         <calibration>
@@ -1364,7 +1373,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 28mm f/2.8</model>
+        <model>Nikkor Z 28mm f/2.8</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1389,7 +1398,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 135mm f/1.8 S Plena</model>
+        <model>Nikkor Z 135mm f/1.8 S Plena</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1421,7 +1430,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 85mm f/1.2 S</model>
+        <model>Nikkor Z 85mm f/1.2 S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -1453,7 +1462,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 600mm f/6.3 VR S</model>
+        <model>Nikkor Z 600mm f/6.3 VR S</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1476,7 +1485,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 26mm f/2.8</model>
+        <model>Nikkor Z 26mm f/2.8</model>
         <mount>Nikon Z</mount>
         <cropfactor>1</cropfactor>
         <calibration>
@@ -1500,7 +1509,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z DX 12-28mm f/3.5-5.6 PZ VR</model>
+        <model>Nikkor Z DX 12-28mm f/3.5-5.6 PZ VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.531</cropfactor>
         <calibration>
@@ -1561,7 +1570,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 28-400mm f/4-8 VR</model>
+        <model>Nikkor Z 28-400mm f/4-8 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1587,7 +1596,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 180-600mm f/5.6-6.3 VR</model>
+        <model>Nikkor Z 180-600mm f/5.6-6.3 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1683,7 +1692,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z 35mm f/1.4</model>
+        <model>Nikkor Z 35mm f/1.4</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.0</cropfactor>
         <calibration>
@@ -1695,7 +1704,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z DX 18-140mm f/3.5-6.3 VR</model>
+        <model>Nikkor Z DX 18-140mm f/3.5-6.3 VR</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.531</cropfactor>
         <calibration>
@@ -1712,7 +1721,7 @@
 
     <lens>
         <maker>Nikon</maker>
-        <model>NIKKOR Z DX 24mm f/1.7</model>
+        <model>Nikkor Z DX 24mm f/1.7</model>
         <mount>Nikon Z</mount>
         <cropfactor>1.531</cropfactor>
         <calibration>
@@ -1728,6 +1737,69 @@
             <vignetting model="pa" focal="24" aperture="5" distance="1000" k1="-0.6345" k2="-0.1051" k3="0.0116"/>
             <vignetting model="pa" focal="24" aperture="11" distance="10" k1="-0.8086" k2="0.4435" k3="-0.2672"/>
             <vignetting model="pa" focal="24" aperture="11" distance="1000" k1="-0.8086" k2="0.4435" k3="-0.2672"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Nikon</maker>
+        <model>Nikkor Z 400mm f/4.5 VR S</model>
+        <mount>Nikon Z</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+             <!-- Taken with Nikon Z 8 -->
+            <distortion model="ptlens" focal="400" a="-0.0042094" b="0.0177294" c="-0.0159209"/>
+            <tca model="poly3" focal="400" vr="0.9998852" vb="0.9999328"/>
+            <vignetting model="pa" focal="400" aperture="4.5" distance="10" k1="-1.5420" k2="1.7489" k3="-0.8248"/>
+            <vignetting model="pa" focal="400" aperture="4.5" distance="1000" k1="-1.5420" k2="1.7489" k3="-0.8248"/>
+            <vignetting model="pa" focal="400" aperture="5.6" distance="10" k1="-0.1161" k2="-1.0047" k3="0.6716"/>
+            <vignetting model="pa" focal="400" aperture="5.6" distance="1000" k1="-0.1161" k2="-1.0047" k3="0.6716"/>
+            <vignetting model="pa" focal="400" aperture="6.3" distance="10" k1="0.1582" k2="-1.0067" k3="0.5071"/>
+            <vignetting model="pa" focal="400" aperture="6.3" distance="1000" k1="0.1582" k2="-1.0067" k3="0.5071"/>
+            <vignetting model="pa" focal="400" aperture="8" distance="10" k1="-0.1027" k2="0.1423" k3="-0.1908"/>
+            <vignetting model="pa" focal="400" aperture="8" distance="1000" k1="-0.1027" k2="0.1423" k3="-0.1908"/>
+            <vignetting model="pa" focal="400" aperture="11" distance="10" k1="-0.0634" k2="-0.0579" k3="0.0441"/>
+            <vignetting model="pa" focal="400" aperture="11" distance="1000" k1="-0.0634" k2="-0.0579" k3="0.0441"/>
+            <vignetting model="pa" focal="400" aperture="16" distance="10" k1="-0.0625" k2="-0.0590" k3="0.0450"/>
+            <vignetting model="pa" focal="400" aperture="16" distance="1000" k1="-0.0625" k2="-0.0590" k3="0.0450"/>
+            <vignetting model="pa" focal="400" aperture="22" distance="10" k1="-0.0652" k2="-0.0530" k3="0.0415"/>
+            <vignetting model="pa" focal="400" aperture="22" distance="1000" k1="-0.0652" k2="-0.0530" k3="0.0415"/>
+            <vignetting model="pa" focal="400" aperture="32" distance="10" k1="-0.0671" k2="-0.0480" k3="0.0381"/>
+            <vignetting model="pa" focal="400" aperture="32" distance="1000" k1="-0.0671" k2="-0.0480" k3="0.0381"/>
+        </calibration>
+    </lens>
+
+    <lens>
+        <maker>Nikon</maker>
+        <model>Nikkor Z 50mm f/1.4</model>
+        <mount>Nikon Z</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Nikon Z 8 -->
+            <distortion model="ptlens" focal="50" a="-0.0033025" b="0.0072582" c="-0.0032197"/>
+            <tca model="poly3" focal="50" vr="1.0001877" vb="1.0003820"/>
+        </calibration>
+    </lens>
+
+	<lens>
+        <maker>Nikon</maker>
+        <model>Nikkor Z 70-180mm f/2.8</model>
+        <mount>Nikon Z</mount>
+        <cropfactor>1.0</cropfactor>
+        <calibration>
+            <!-- Taken with Nikon Z 5 -->
+            <distortion model="ptlens" focal="70" a="-0.0014891" b="-0.0022833" c="-0.0007796"/>
+            <distortion model="ptlens" focal="77" a="0.0062255" b="-0.025258" c="0.0277798"/>
+            <distortion model="ptlens" focal="85" a="0.0021242" b="-0.0083883" c="0.0122945"/>
+            <distortion model="ptlens" focal="105" a="-0.0037938" b="0.0191973" c="-0.0137919"/>
+            <distortion model="ptlens" focal="145" a="-0.0017162" b="0.0220639" c="-0.0107605"/>
+            <distortion model="ptlens" focal="180" a="-0.0013213" b="0.0233964" c="-0.0086344"/>
+            <tca model="poly3" focal="70" br="-0.0000177" vr="1.0000725" bb="-0.0000086" vb="1.0000667"/>
+            <tca model="poly3" focal="77" br="-0.0000030" vr="1.0000478" bb="-0.0000171" vb="1.0000786"/>
+            <tca model="poly3" focal="85" br="-0.0000082" vr="1.0000459" bb="-0.0000147" vb="1.0000769"/>
+            <tca model="poly3" focal="102" br="0.0000018" vr="0.9999911" bb="-0.0000069" vb="1.0000194"/>
+            <tca model="poly3" focal="130" br="0.0000041" vr="0.9999558" bb="-0.0000240" vb="0.9999633"/>
+            <tca model="poly3" focal="150" br="-0.0000069" vr="0.9999536" bb="-0.0000118" vb="0.9999530"/>
+            <tca model="poly3" focal="180" br="-0.0000825" vr="1.0000145" bb="-0.0000160" vb="0.9999411"/>
         </calibration>
     </lens>
 
